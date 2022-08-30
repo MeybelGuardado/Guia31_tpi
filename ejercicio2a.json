@@ -1,0 +1,36 @@
+{
+	"pais":{
+		"@nombre":"El Salvador",
+		"idiomas":{
+			"oficial":"Español",
+			"autoctono":"Náhuat",
+			"segundo":"Ingles"
+		},
+		"departamento":[
+			{
+				"@id":"1",
+				"@nombre":"San Salvador",
+				"cabecera":"San Salvador",
+				"habitantes":"1,700,000",
+				"altura":"545 MSNM",
+				"moneda":"Dolar americano",
+				"codigo":{
+					"@tipo":"telefonico",
+					"#text":"503"
+				}
+			},
+			{
+				"@id":"2",
+				"@nombre":"La Libertad",
+				"cabecera":"Santa Tecla",
+				"habitantes":"1,859,640",
+				"altura":"493 MSNM",
+				"moneda":"Dolar americano",
+				"codigo":{
+					"@tipo":"telefonico",
+					"#text":"503"
+				}
+			}
+		]
+	}
+}

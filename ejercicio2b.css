@@ -1,0 +1,106 @@
+pais::before{
+    content: attr(nombre);
+    font-size: 1cm;
+    font-weight:bold;
+    color:rgb(31, 6, 94);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+pais{
+    background-color: #c6edf5;
+    text-align: center;
+}
+
+idiomas{
+    width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    display: block;
+    background-color: #b1efc7;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: #2f925d;
+    font-size: 0.7cm;
+    box-shadow: 2px 2px 2px #2be286;
+}
+
+departamento{
+    width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    display: block;
+    background-color: #b1c0ef;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: #2f3292;
+    font-size: 0.7cm;
+    box-shadow: 2px 2px 2px #2b71e2;
+}
+
+departamento[id]::before {
+    content: "Id: "attr(id) "→ Departamento: " attr(nombre);
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    display:block
+}
+
+oficial::before {
+    content: "Idioma oficial: ";
+    display: inline;
+}
+oficial{
+    display: block;
+}
+autoctono::before {
+    content: "Idioma autoctono: ";
+    display: inline;
+}
+autoctono{
+    display: block;
+}
+area::before {
+    content: "Área: ";
+    display: inline;
+}
+area{
+    display: block;
+}
+segundo::before {
+    content: "Idioma secundario: ";
+    display: inline;
+}
+cabecera::before {
+    content: "Cabecera: ";
+    display: inline;
+}
+cabecera{
+    display: block;
+}
+habitantes::before {
+    content: "Habitantes: ";
+    display: inline;
+}
+habitantes{
+    display: block;
+}
+
+altura::before {
+    content: "Altura: ";
+    display: inline;
+}
+altura{
+    display: block;
+}
+
+moneda::before {
+    content: "Moneda: ";
+    display: inline;
+}
+moneda{
+    display: block;
+}
+
+codigo[tipo]::before {
+    content:attr(tipo)": ";
+    font-weight:bold;
+}

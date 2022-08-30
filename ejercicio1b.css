@@ -1,0 +1,111 @@
+fichero{
+    background-color: #c6edf5;
+}
+nombre::before {
+    content: "Nombre: ";
+    display: inline;
+}
+apellido {
+    color:rgb(0, 0, 0); 
+    display: inline;
+}
+direccion::before {
+    content: "Direccion: ";
+    display: inline;
+}
+dui::before {
+    content: "DUI: ";
+    display: inline;
+}
+dui{
+    display:block
+}
+
+nit::before {
+    content: "NIT: ";
+    display: inline;
+}
+
+nit{
+    display:block
+}
+
+afp::before {
+    content: "AFP: ";
+    display: inline;
+}
+direccion{
+    display:block
+}
+email {
+    color:rgb(0, 0, 0); 
+    display:block
+}
+url{
+    color:rgb(0, 0, 0); 
+    display:block
+} 
+
+ficha {
+    width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    display: block;
+    background-color: #b1c0ef;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: #2f3292;
+    font-size: 0.7cm;
+    box-shadow: 2px 2px 2px #2b71e2;
+}
+
+ficha2 {
+    width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    display: block;
+    background-color: #b1c0ef;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: #2f3292;
+    font-size: 0.7cm;
+    box-shadow: 2px 2px 2px #2b71e2;
+}
+
+ficha3 {
+    width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    display: block;
+    background-color: #b1c0ef;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: #2f3292;
+    font-size: 0.7cm;
+    box-shadow: 2px 2px 2px #2b71e2;
+}
+
+ficha[fechaingreso]::before {
+    content: "Fecha: "attr(fechaingreso);
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    display:block
+}
+
+telefono[tipo]::before {
+    content:attr(tipo)": ";
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+}
+
+url[tipo]::before {
+    content:attr(tipo)": ";
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+}
+
+email[tipo]::before {
+    content:attr(tipo)": ";
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+};

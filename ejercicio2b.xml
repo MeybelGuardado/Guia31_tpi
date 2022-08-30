@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ejercicio2b.css" ?>
+<!-- ejercicio2b.xml GM20008 -->
+<pais nombre="El Salvador">
+
+  <idiomas>
+    <oficial>Español</oficial>
+    <autoctono>Náhuat</autoctono>
+    <segundo>Ingles</segundo>
+  </idiomas>
+  
+<departamento id="1" nombre="San Salvador">
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<area>	886,2</area>
+<altura>545 MSNM</altura>
+<moneda>Dolar americano</moneda>
+<codigo tipo="telefonico">503</codigo>
+</departamento>
+
+<departamento id="2" nombre="La Libertad">
+<cabecera>Santa Tecla</cabecera>
+<habitantes>1,859,640</habitantes>
+<area>1652,9</area>
+<altura>493 MSNM</altura>
+<moneda>Dolar americano</moneda>
+<codigo tipo="telefonico">503</codigo>
+</departamento>
+
+<departamento id="3" nombre="Chalatenango">
+<cabecera>Chalatenango</cabecera>
+<habitantes>29 271</habitantes>
+<area>2016,6</area>
+<altura>450 MSNM</altura>
+<moneda>Dolar americano</moneda>
+<codigo tipo="telefonico">503</codigo>
+</departamento>
+</pais>

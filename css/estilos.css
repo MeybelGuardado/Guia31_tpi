@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(156, 202, 226);
+    margin-bottom: 20px;
+}
+
+.btn{
+    border: 3px solid rgba(100,100,100,0.1);
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color:white;
+    background-size: 300%;  
+    display: inline-block;
+    text-align: center;
+}
+
+.btn1{
+    background-image: linear-gradient(to left, #A950A1, #2D3A54, #A950A1);
+}
+
+.btn2{
+    background-image: linear-gradient(to left, #00B7DA, #161569, #00B7DA);
+}
+
+datos{
+    width: 500px;
+    margin: 10px auto;
+    padding: 15px;
+    display: block;  
+    border-style:solid;
+    border-color: #A950A1;
+    font-size: 0.3cm;
+    box-shadow: 2px 2px 2px #161569;
+    background: rgb(156, 202, 226);
+}
+
+container{
+    width: 500px;
+    margin: 10px auto;
+    padding: 15px;
+    display: block;
+    border-style:solid;
+    border-color: #A950A1;
+    font-size: 0.3cm;
+    box-shadow: 2px 2px 2px #161569;
+    background: rgb(156, 202, 226);
+}
+
+h3{
+    font-size: 0.5cm;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(35, 16, 77);
+}
+
+footer {
+    width: 90px;
+    margin: 1px 0;
+    padding: 20px;
+    background-color: rgb(35, 16, 77);
+    color: #ffffff;
+}
